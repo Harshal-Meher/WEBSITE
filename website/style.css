@@ -1,0 +1,340 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.main{
+    width: 100%;
+    position: relative;
+}
+.nav{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .7vw 2vw;
+    font-family: Arial;
+    flex-wrap: wrap;
+    border-bottom: 0.6px solid rgb(180, 161, 161);
+}
+.left-link img{
+    /* display: none; */
+    width: 100px;
+}
+.left-link{
+    display: flex;
+    justify-items: center;
+    gap: 40px;
+}
+.left-link li{
+    display: flex;
+    letter-spacing: 1.5px;
+    font-size: 13px;
+    justify-content: center;
+    align-items: center;
+}
+.left-link li i{
+    font-size: 8px;
+}
+.left-link li:hover{
+    color: #3459c8;
+}
+.left-link h4{
+    font-size: 25px;
+    background: linear-gradient(90deg, #1db106, #f00404);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-weight: bold;
+    margin: 0;
+}
+.right-nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.right-nav button{
+    padding: 8px 8px;
+    font-size: 12px;
+    font-weight: 700;
+    border: 1px solid #3459c8;
+    background-color:white;
+    color:#3459c8;
+    letter-spacing: 1px;
+    border-radius: 3px;
+}
+.right-nav button:hover{
+    background-color: #0094e8;
+    color: #fff;
+}
+.right-nav #b2:hover{
+    background-color:#3459c8;
+}
+.right-nav #i{
+    padding: 6px 6px;
+    border: 1px solid #3459c8;
+    color:#3459c8;
+    border-radius: 3px;
+}
+.sub-icon i{
+    display: none;
+    padding: 6px 6px;
+    border: 1px solid #3459c8;
+    color:#3459c8;
+    border-radius: 3px;
+}
+.right-nav #i:hover{
+    color:#8599d5;
+}
+/* ................Labels.......... */
+.labels h2{
+    width: 100%;
+    /* height: 30px; */
+    font-size: 20px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, #3459c8, #ff5733);
+    flex-wrap: wrap;
+}
+
+/* ................content.......... */
+
+.content{
+    display: flex;
+    padding: 3vw 4vw;
+}
+.left-content{
+    width: 60%;
+    /* border: 1px solid blue; */
+}
+.left-content h2{
+    margin-left: 40px;
+    padding: 10px 10px;
+}
+.cards{
+    /* border: 1px solid blue; */
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+.card{
+    border: 1px solid rgb(204, 200, 200);
+    padding: 50px 10px;
+    box-shadow: 10px 10px 10px gray;
+}
+.card p{
+    display: inline;
+    margin-right: 20px;
+    color: #3459c8;
+}
+
+.card i{
+    font-size: 10px;
+}
+
+.card img{
+    width: 200px;
+    flex-wrap: wrap;
+}
+.right-content{
+    width: 40%;
+    /* position: fixed; */
+    
+}
+.right-content-links{
+
+}
+.right-content-links li{
+    width:40%;
+    padding: 7px 5px;
+    display: block;
+    border:1px solid rgb(224, 221, 221);
+    border-bottom: 1px solid rgb(204, 200, 200);
+    /* font-weight:200; */
+    font-family:Roboto, sans-serif;
+    font-size: 12px;
+}
+.right-content-links li:hover{
+  color:#e9adb0;
+}
+#r-c-l{
+    background-color: #0094e8;
+    color: #fff;
+}
+/* ......footer..... */
+.footer{
+    width: 100%;
+    background-color:#f5f7fa;
+    padding: 3vw 10vw;
+    /* flex-wrap: wrap; */
+}
+.footer h1{
+    text-align: center;
+    padding: 10px;
+}
+.menu{
+  display: flex;
+  justify-content: space-between;
+  /* padding: 3vw; */
+  /* width: 400px; */
+}
+.sub-menu{
+padding:20px 20px;
+}
+.sub-menu img{
+    width: 80px;
+}
+.footer h2{
+    letter-spacing: 2;
+    text-align: center;
+}
+/* middle menu */
+.middle-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* position: relative;
+    top: 30px; */
+    padding: 60px 10px;
+}
+.left-middle-menu{
+    font-size: 20px;
+    color: #55575c;
+}
+.right-middle-menu button{
+    padding: 8px 12px;
+    border-radius: 4px;
+    font-weight: 700;
+    color: #3459c8;
+    border: 1px solid #3459c8;
+    background-color: #fff;
+}
+.right-middle-menu button:hover{
+    color: rgb(59, 53, 53);
+    transition: .3s ease-in-out;
+}
+.last-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.middle-last-menu-link li{
+    display: block;
+    padding: 5px;
+    font-size: 12px;
+}
+.last-last-menu-link li{
+    display: block;
+    padding: 5px;
+    font-size: 12px;
+}
+.last-last-menu-link img{
+    width: 250px;
+}
+
+
+@media (max-width:600px) {
+    .nav{
+        width: 100%;
+        height:60px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1vw 2vw;
+    }
+    .left-link img{
+       width: 80px;
+    }
+    .left-link li{
+        display: none;
+    }
+    .right-nav button{
+        display: none;
+    }
+    .sub-icon i{
+        display: inline-block;
+    }
+    /* ..labels... */
+    .labels h2{
+       text-align: center;
+    }
+    /* contents */
+    .content{
+        flex-direction: column;
+    }
+    .content h2{
+        text-align: center;
+    }
+    .left-content{
+      width: 100%;
+    }
+    .card{
+        width:100%;
+    }
+    .card h5{
+    padding: 10px 10px;
+    text-align: center;
+    }
+    .card p{
+        margin-left:40px;
+        padding: 10px 10px;
+    }
+    .card img{
+        width: 250px;
+        display:block;
+        margin: auto;
+        flex-wrap: wrap;
+
+    }
+  /* right-content */
+  .right-content{
+    width: 100%;
+  }
+  .right-content-links {
+ 
+  }
+  .right-content-links li{
+    display: block;
+    margin: auto;
+    position: relative;
+    top: 50px;
+    width:100%;
+    padding: 10px 20px;
+  }
+  /* footer */
+
+  .footer{
+    width: 100%;
+    flex-direction: column;
+    padding: 14vw 5vw;
+  }
+  .menu{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .middle-menu{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .last-menu{
+    flex-direction: column;
+    display: inline;
+    padding: 30px 30px;
+  }
+
+}
