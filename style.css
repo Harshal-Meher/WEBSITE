@@ -7,6 +7,7 @@ html,body{
     height: 100%;
     width: 100%;
 }
+
 .main{
     width: 100%;
     position: relative;
@@ -167,7 +168,7 @@ html,body{
   color:#e9adb0;
 }
 #r-c-l{
-    background-color: #0094e8;
+    background-color:#1289e4;
     color: #fff;
 }
 /* ......footer..... */
@@ -196,6 +197,22 @@ padding:20px 20px;
 .footer h2{
     letter-spacing: 2;
     text-align: center;
+}
+/* ..left last menu.. */
+.left-last-menu h4{
+    padding: 10px;
+}
+.left-last-menu p{
+    padding: 5px;
+}
+.left-last-menu i{
+    border: 1px solid #3459c8;
+    border-radius: 50%;
+    font-size: 13px;
+    padding: 5px 5px;
+}
+.left-last-menu i:hover{
+border: none;
 }
 /* middle menu */
 .middle-menu{
@@ -237,11 +254,28 @@ padding:20px 20px;
     padding: 5px;
     font-size: 12px;
 }
+
 .last-last-menu-link img{
     width: 250px;
 }
+.icon{
+    /* width: 100%; */
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+}
+.icon img{
+ width: 50px;
+}
 
-
+.lastline{
+    width:100%;
+    background-color: #edf0f5;
+    text-align: center;
+    font-size: 12px;
+    color:#7c7c7d;
+    padding: 5px 5px;
+}
 @media (max-width:600px) {
     .nav{
         width: 100%;
@@ -331,10 +365,22 @@ padding:20px 20px;
     align-items: center;
     flex-direction: column;
   }
+  .right-middle-menu {
+    padding: 20px;
+  }
   .last-menu{
     flex-direction: column;
     display: inline;
     padding: 30px 30px;
   }
-
+ .icon{
+ width: 100%;
+ margin-left: 10px;
+ }
+ .icon img{
+   position: fixed;
+   width: 40px;
+   right: 10px;
+   bottom: 10px;
+  } 
 }
