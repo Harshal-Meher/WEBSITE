@@ -350,6 +350,8 @@ border: none;
     width: 100%;
     flex-direction: column;
     padding: 14vw 5vw;
+    position: relative;
+    top: 80px;
   }
   .menu{
     width: 100%;
